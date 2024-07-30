@@ -27,6 +27,6 @@ Returns JSON data with optional filtering and sorting.
 - `sortOrder`: Order of sorting, `asc` or `desc`
 
 Example: 
-`1.To filter data: http://localhost:3000/api/data?filterKey=name&filterValue=John`
 
+`1.To filter data: http://localhost:3000/api/data?filterKey=name&filterValue=John`
 `2.To sort data: http://localhost:3000/api/data?sortKey=age&sortOrder=asc`
