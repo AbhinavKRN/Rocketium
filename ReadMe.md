@@ -9,7 +9,7 @@ This project uses Express to create a Node.js server that serves, filters, and s
 - npm (v6.x or higher)
 
 ### Installation and Running
-1. Clone the project: `git clone <your-repository-url> && cd <your-repository-folder>`
+1. Clone the project: `git clone git@github.com:AbhinavKRN/Rocketium.git && cd node-dummy-json-project`
 2. Install dependencies: `npm install`
 3. Fetch initial data: `node scripts/initializeData.js`
 4. Start the server: `node src/server.js`
@@ -28,6 +28,6 @@ Returns JSON data with optional filtering and sorting.
 
 Example: 
 
-`1.To filter data: http://localhost:3000/api/data?filterKey=name&filterValue=John`
+`1.To filter data: http://localhost:3000/api/data?filterKey=name&filterValue=Adeel Solangi`
 
-`2.To sort data: http://localhost:3000/api/data?sortKey=age&sortOrder=asc`
+`2.To sort data: http://localhost:3000/api/data?sortKey=version&sortOrder=asc`
