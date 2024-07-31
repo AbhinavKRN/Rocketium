@@ -23,12 +23,12 @@ To get started, ensure you have the following installed on your machine:
 
 3. **Fetch Initial Data**:
    ```sh
-   node scripts/initializeData.js
+   node script/initializeData.js
    ```
 
 4. **Start the Server**:
    ```sh
-   node src/server.js
+   node server.js
    ```
    The server will be accessible at: [http://localhost:3000](http://localhost:3000)
 
@@ -50,13 +50,13 @@ Retrieve all the dummy JSON data with optional filtering and sorting capabilitie
 
 ##### Example Requests:
 1. **Filter Data**:  
-   `GET http://localhost:3000/api/data?filterKey=name&filterValue=Adeel Solangi`
+   `GET http://localhost:3000/api/data?filterKey=name&filterValue=Adeel%20Solangi`
 
 2. **Sort Data**:  
    `GET http://localhost:3000/api/data?sortKey=version&sortOrder=asc`
 
 3. **Filter and Sort Data**:  
-   `GET http://localhost:3000/api/data?filterKey=type&filterValue=fiction&sortKey=price&sortOrder=desc`
+   `GET http://localhost:3000/api/data?sortKey=id&sortOrder=asc&filterKey=version`
 
 ##### Example Response:
 ```json
@@ -84,7 +84,7 @@ Retrieve all the dummy JSON data with optional filtering and sorting capabilitie
 - **500 Internal Server Error**: Server-side error.
 
 ## Postman Documentation
-For a detailed guide on how to use the API, including examples and additional functionalities, refer to our comprehensive [Postman Documentation](https://www.postman.com/abhinav14379/workspace/rocketium/collection/37350472-2dd09e54-3dce-419b-8a4f-d91cadae2406?action=share&creator=37350472).
+For a detailed guide on how to use the API, including examples and additional functionalities, refer to our comprehensive [Postman Documentation](https://www.postman.com/abhinav14379/workspace/rocketium/collection/37350472-9e81d823-d9ca-4964-89fe-a513c00cec53?action=share&creator=37350472).
 
 ## Contributing
 We welcome contributions! Feel free to open issues or submit pull requests.
