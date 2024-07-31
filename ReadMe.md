@@ -1,7 +1,3 @@
-Here's an enhanced version of your README file with additional details to make it more informative and attractive, including a link to the Postman documentation:
-
----
-
 # Node.js JSON Data Server
 
 Welcome to the **Node.js JSON Data Server**! This project leverages Express to create a robust and scalable server that serves, filters, and sorts dummy JSON data. Whether you're looking to practice API integration, or test data manipulation techniques, this server is a perfect starting point.
@@ -66,19 +62,19 @@ Retrieve all the dummy JSON data with optional filtering and sorting capabilitie
 ```json
 [
   {
-    "id": 1,
-    "name": "John Doe",
-    "type": "fiction",
-    "price": 10.99,
-    "version": 2
-  },
-  {
-    "id": 2,
-    "name": "Jane Smith",
-    "type": "non-fiction",
-    "price": 8.99,
-    "version": 1
-  }
+        "name": "Adeel Solangi",
+        "language": "Sindhi",
+        "id": "V59OF92YF627HFY0",
+        "bio": "Donec lobortis eleifend condimentum. Cras dictum dolor lacinia lectus vehicula rutrum. Maecenas quis nisi nunc. Nam tristique feugiat est vitae mollis. Maecenas quis nisi nunc.",
+        "version": 6.1
+    },
+    {
+        "name": "Afzal Ghaffar",
+        "language": "Sindhi",
+        "id": "ENTOCR13RSCLZ6KU",
+        "bio": "Aliquam sollicitudin ante ligula, eget malesuada nibh efficitur et. Pellentesque massa sem, scelerisque sit amet odio id, cursus tempor urna. Etiam congue dignissim volutpat. Vestibulum pharetra libero et velit gravida euismod.",
+        "version": 1.88
+    }
 ]
 ```
 
