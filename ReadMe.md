@@ -18,7 +18,7 @@ To get started, ensure you have the following installed on your machine:
 
 2. **Install Dependencies**:
    ```sh
-   npm install
+   npm install express axios
    ```
 
 3. **Fetch Initial Data**:
